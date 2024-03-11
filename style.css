@@ -96,17 +96,17 @@ header nav #toggle{
 }
 
 .home .images .img-1{
-    background: url(https://github.com/ziho8809/ziho8809.github.io/blob/main/Image/project-1.jpg);
+    background: url("https://github.com/ziho8809/ziho8809.github.io/blob/main/Image/project-1.jpg");
     background-position: center;
     background-size: cover;
 }
 .home .images .img-2{
-    background: url(https://github.com/ziho8809/ziho8809.github.io/blob/main/Image/project-2.jpg);
+    background: url("https://github.com/ziho8809/ziho8809.github.io/blob/main/Image/project-2.jpg");
     background-position: center;
     background-size: cover;
 }
 .home .images .img-3{
-    background: url(https://github.com/ziho8809/ziho8809.github.io/blob/main/Image/project-3.jpg);
+    background: url("https://github.com/ziho8809/ziho8809.github.io/blob/main/Image/project-3.jpg");
     background-position: center;
     background-size: cover;
 } 
