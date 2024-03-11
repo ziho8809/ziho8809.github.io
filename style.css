@@ -96,7 +96,7 @@ header nav #toggle{
 }
 
 .home .images .img-1{
-    background: url(Images/project-1.jpg);
+    background: url(#Images/project-1.jpg);
     background-position: center;
     background-size: cover;
 }
