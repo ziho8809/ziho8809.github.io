@@ -29,7 +29,7 @@
     </h2> 
         <br> 
     <div style="text-align: left;"> 
-        <a href=https://pdylan.tistory.com/> 
+        <a href=https://pdylan.tistory.com> 
             <img src="https://img.shields.io/badge/Tistory-000000?style=for-the-badge&logo=Tistory&logoColor=white&link=https://pdylan.tistory.com/"> 
         </a>
       </div>  
