@@ -1,4 +1,3 @@
-# 2024.03.11 홈페이지 만들기
 <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&text=P.dylan%20홈페이지&animation=fadeIn&fontColor=000000&fontSize=60" />
     </div>
@@ -23,3 +22,5 @@
     <div style="text-align: left;">  </div> 
     </div>
     
+개발 일정
+# 2024.03.11 홈페이지 만들기
