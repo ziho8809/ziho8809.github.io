@@ -1,7 +1,5 @@
 <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&text=P.dylan%20홈페이지&animation=fadeIn&fontColor=000000&fontSize=60" />
-    </div>
-    
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> SBSOFT 개발자 </h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 안녕하세요. SBSOFT 개발자입니다.</li>간단하게 개발정리중입니다. </div> 
@@ -22,6 +20,7 @@
           </div>  <br> 
     <div style="text-align: left;">  </div> 
     </div>
+</div>
     
 개발 일정
 # 2024.03.11 홈페이지 만들기
