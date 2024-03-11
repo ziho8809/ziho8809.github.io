@@ -101,12 +101,12 @@ header nav #toggle{
     background-size: cover;
 }
 .home .images .img-2{
-    background: url("https://github.com/ziho8809/ziho8809.github.io/blob/main/Image/project-2.jpg");
+    background: url("https://github.com/ziho8809/ziho8809.github.io/blob/main/Image/project-2.jpg?raw=true");
     background-position: center;
     background-size: cover;
 }
 .home .images .img-3{
-    background: url("https://github.com/ziho8809/ziho8809.github.io/blob/main/Image/project-3.jpg");
+    background: url("https://github.com/ziho8809/ziho8809.github.io/blob/main/Image/project-3.jpg?raw=true");
     background-position: center;
     background-size: cover;
 } 
