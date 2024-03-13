@@ -1,58 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
-        <title></title>
-    </head>
-    <body>
-        <header>
-            <div class="Logo">
-                Logo
-            </div>
-            <nav>
-                <ui class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="/src/index.js">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ui>
-                <i class="fa-solid fa-bars" id="toggle"></i>
-            </nav>
-        </header>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Single Page Apps for GitHub Pages</title>
+    <meta name="description" content="Lightweight solution for deploying single page apps with GitHub Pages.">
 
-        <section class="home">
-            <div class="home-content">
-                <h2>Welcome</h2>
-                <h1>SBSOFT</h1>
-            </div>
-            <div class="images">
-                <div class="img-1"></div>
-                <div class="img-2"></div>
-                <div class="img-3"></div>
-                <div class="img-4"></div>
-                <div class="img-5"></div>
-                <div class="img-6"></div>
-                <div class="img-7"></div>
-            </div>
-        </section>
-        <script>
-            gsap.from('.img-1',1.2,{opacity:0,y:-150,delay:0.1})
-            gsap.from('.img-2',1.2,{opacity:0,y:-150,delay:0.7})
-            gsap.from('.img-3',1.2,{opacity:0,y:-150,delay:1.5})
-            gsap.from('h1',1.2,{opacity:0,y:-150,delay:2.2})
-            gsap.from('h2',1.2,{opacity:0,y:-150,delay:2.5})
+    <style>
+      html { background-color: rgb(0, 120, 0); }
+    </style>
 
-            const menu = document.querySelector('.menu');
-            const toggle = document.getElementById('toggle');
-            toggle.onclick=function(){
-                menu.classList.toggle('active');
-            }
-        </script>
+    <!-- favicon -->
+    <link rel="icon" type=”image/svg+xml” href="/favicon/green-grid-144-168-192.svg">
+    <link rel="alternate icon" type="image/png" href="/favicon/green-grid-144-168-192-512x512.png">
+    <link rel="apple-touch-icon" href="/favicon/green-grid-144-168-192-180x180.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <meta name="theme-color" content="#000000">
 
-    </body>
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- single page app in bundle.js -->
+    <script src="/build/bundle.js"></script>
+  </body>
 </html>
